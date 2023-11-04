@@ -1,0 +1,72 @@
+/* Set the background color for the entire webpage */
+body {
+    background-color: #e07979;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the text within a title element */
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styles for the form container */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #64b5eb;
+}
+
+/* Apply styles to the submit button */
+input[type="submit"] {
+    width: 80%;
+    padding: 12px;
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Apply styles to the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #35b929; /* Darker blue color on hover */
+}
+/* Styles for the registration form section */
+#register-form h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #151616;
+    margin-bottom: 20px;
+}
+
+/* Styles for the login form section */
+#login-form h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+.dashboard {
+    background-color: #64b5eb;
+    color: #fff;
+    padding: 20px;
+}
